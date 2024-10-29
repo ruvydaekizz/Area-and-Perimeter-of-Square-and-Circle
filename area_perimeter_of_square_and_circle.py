@@ -55,17 +55,19 @@ class Circle(Shape):         # child class
         
 
 
-c = Circle(6)       # call class and create an object
-c.area()            # result -> area of circle with area() method
-c.perimeter()       # result -> perimeter of circle with perimeter() method
-c.toString()        # print circle edge value
-
-print("---------------------------")
 
 s = Square(4)      # call class and create an object
 s.area()           # result -> area of square with area() method
 s.perimeter()      # result -> perimeter of circle with perimeter() method
 s.toString()       # print square edge value
+
+print("---------------------------")
+
+c = Circle(6)       # call class and create an object
+c.area()            # result -> area of circle with area() method
+c.perimeter()       # result -> perimeter of circle with perimeter() method
+c.toString()        # print circle edge value
+
 
 
 
