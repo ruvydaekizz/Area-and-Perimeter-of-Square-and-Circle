@@ -63,7 +63,7 @@ s.toString()       # print square edge value
 
 print("---------------------------")
 
-c = Circle(6)       # call class and create an object
+c = Circle(3)       # call class and create an object
 c.area()            # result -> area of circle with area() method
 c.perimeter()       # result -> perimeter of circle with perimeter() method
 c.toString()        # print circle edge value
